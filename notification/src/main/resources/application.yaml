@@ -1,0 +1,25 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5433/postgres
+  application:
+    name: notification-service
+  kafka:
+    bootstrapAddress: 'localhost:9092'
+    requestTopic: 'request'
+  jpa:
+    generate-ddl: true
+    #    show-sql: true
+    #    properties:
+    #      hibernate:
+    #        format_sql: true
+    hibernate:
+      ddl-auto: update
+  data:
+    jpa:
+      repositories:
+        enabled: true

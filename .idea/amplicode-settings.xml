@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CrudOperationsStateConfig">
+    <option name="configPaths">
+      <map>
+        <entry key="dto" value="ru.lutsenko.request.entity.Request" />
+        <entry key="repository" value="ru.lutsenko.request.repository.RequestRepository" />
+        <entry key="serviceProxy" value="ru.lutsenko.request.service.RequestService" />
+      </map>
+    </option>
+  </component>
+  <component name="SpringProjectLocalState">
+    <option name="firstOpen" value="false" />
+  </component>
+</project>
